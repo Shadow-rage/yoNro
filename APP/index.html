@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yoNro - Your Mental Wellness Ecosystem</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <div class="desktop-presentation">
+        <div class="phone-frame">
+            <!-- Phone Hardware Details -->
+            <div class="notch"></div>
+            <div class="power-button"></div>
+            <div class="volume-up"></div>
+            <div class="volume-down"></div>
+            <div class="home-indicator"></div>
+
+            <div class="phone-screen">
+                <div class="app-container">
+                    
+                    <!-- SPLASH SCREEN -->
+                    <div id="screen-splash" class="screen screen-active">
+                        <div class="glow-orb"></div>
+                        <div class="logo-container">
+                            <div class="logo-text">yoNro</div>
+                            <p class="loading-text">Initializing your wellness ecosystem...</p>
+                        </div>
+                    </div>
+
+                    <!-- ONBOARDING SCREEN -->
+                    <div id="screen-onboarding" class="screen hidden">
+                        <div id="onboarding-content"></div>
+                    </div>
+
+                    <!-- MAIN APP SCREEN -->
+                    <div id="screen-main" class="screen hidden">
+                        <div class="main-layout">
+                            <div class="main-content-scrollable" id="main-content">
+                                <!-- Dynamic content rendered by JS -->
+                            </div>
+
+                            <!-- Bottom Navigation -->
+                            <nav class="bottom-nav">
+                                <button class="nav-item active" data-tab="home">
+                                    <i class="ph ph-house"></i>
+                                    <span>Home</span>
+                                </button>
+                                <button class="nav-item" data-tab="neuro">
+                                    <i class="ph ph-sparkle"></i>
+                                    <span>Neuro AI</span>
+                                </button>
+                                <button class="nav-item" data-tab="controls">
+                                    <i class="ph ph-sliders"></i>
+                                    <span>Controls</span>
+                                </button>
+                                <button class="nav-item" data-tab="insights">
+                                    <i class="ph ph-chart-line"></i>
+                                    <span>Insights</span>
+                                </button>
+                                <button class="nav-item" data-tab="profile">
+                                    <i class="ph ph-user"></i>
+                                    <span>Profile</span>
+                                </button>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

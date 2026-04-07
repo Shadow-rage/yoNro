@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yoNroBand - Advanced Wearable | yoNro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="yoNro Logo" class="logo-img">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#solution">Solution</a></li>
+                <li><a href="index.html#ecosystem">Ecosystem</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="index.html#pricing">Pricing</a></li>
+            </ul>
+            <button class="cta-btn-small" onclick="window.location.href='register.html'">Get Started</button>
+        </div>
+    </nav>
+
+    <!-- Product Hero -->
+    <section class="product-hero">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="shop.html">Shop</a> / <a href="shop.html">Wearable</a> / <span>yoNroBand</span>
+            </div>
+            <div class="product-hero-grid">
+                <div class="product-hero-image">
+                    <img src="yonroband-hero-black.jpg" alt="yoNroBand" class="product-main-img">
+                    <div class="product-badge-hero">Bestseller</div>
+                </div>
+                <div class="product-hero-content">
+                    <h1 class="product-title">yoNroBand</h1>
+                    <p class="product-tagline">Simple. Stylish. Smart.</p>
+                    <p class="product-description-hero">Your health. Your insights. Always with you. A smart wellness band that fits around your wrist, alongside your watch.</p>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-text">4.9 (2,847 reviews)</span>
+                    </div>
+                    <div class="product-price-section">
+                        <span class="price-main">₹24,999</span>
+                        <span class="price-label">Starting price</span>
+                    </div>
+                    <div class="product-variants">
+                        <h4>Choose Color:</h4>
+                        <div class="variant-options">
+                            <button class="variant-btn active" data-variant="midnight-black">
+                                <span class="color-dot" style="background: #1a1a1a;"></span>
+                                Midnight Black
+                            </button>
+                            <button class="variant-btn" data-variant="space-gray">
+                                <span class="color-dot" style="background: #4a4a4a;"></span>
+                                Space Gray
+                            </button>
+                            <button class="variant-btn" data-variant="sand-beige">
+                                <span class="color-dot" style="background: #d4b896;"></span>
+                                Sand Beige
+                            </button>
+                            <button class="variant-btn" data-variant="rose-pink">
+                                <span class="color-dot" style="background: #e8b4b8;"></span>
+                                Rose Pink
+                            </button>
+                            <button class="variant-btn" data-variant="navy-blue">
+                                <span class="color-dot" style="background: #2c3e50;"></span>
+                                Navy Blue
+                            </button>
+                            <button class="variant-btn" data-variant="sage-green">
+                                <span class="color-dot" style="background: #8b9d83;"></span>
+                                Sage Green
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="btn-primary glow-btn btn-large">Add to Cart - ₹24,999</button>
+                        <button class="btn-secondary btn-large">Try for 14 Days Free</button>
+                    </div>
+                    <div class="product-highlights">
+                        <div class="highlight-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <span>Free shipping</span>
+                        </div>
+                        <div class="highlight-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                            <span>2-year warranty</span>
+                        </div>
+                        <div class="highlight-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                            </svg>
+                            <span>30-day returns</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details -->
+    <section class="product-details">
+        <div class="container">
+            <div class="details-tabs">
+                <button class="tab-btn active" data-tab="overview">Overview</button>
+                <button class="tab-btn" data-tab="specs">Specifications</button>
+                <button class="tab-btn" data-tab="reviews">Reviews</button>
+            </div>
+
+            <div class="tab-content active" id="overview">
+                <h2>Your Health. Your Insights. Always With You.</h2>
+                <p>A smart wellness band that fits around your wrist, alongside your watch. yoNroBand is designed to be lightweight, comfortable, and stylish—providing continuous health monitoring without compromising your style.</p>
+                
+                <!-- Product Image Gallery -->
+                <div class="product-gallery">
+                    <div class="gallery-main">
+                        <img src="yonroband-hero-rose.jpg" alt="yoNroBand Rose Pink" class="gallery-img">
+                    </div>
+                    <div class="gallery-caption">
+                        <h3>Designed to Wear With Your Watch</h3>
+                        <p>Unlike bulky fitness trackers, yoNroBand complements your existing watch. Sleek, minimal, and comfortable.</p>
+                    </div>
+                </div>
+                
+                <div class="product-highlights-section">
+                    <div class="highlight-feature">
+                        <h3>Sleek Design Made to Pair With Any Watch</h3>
+                        <p>Unlike bulky fitness trackers, yoNroBand is designed to complement your existing watch. Wear it on the same wrist or opposite—it's so comfortable you'll forget it's there.</p>
+                    </div>
+                    <div class="highlight-feature">
+                        <h3>Lightweight & Comfortable</h3>
+                        <p>Weighing just 15 grams with a soft, breathable nylon strap, yoNroBand is built for 24/7 wear. No screen, no distractions—just pure health tracking.</p>
+                    </div>
+                    <div class="highlight-feature">
+                        <h3>Water Resistant for Daily Use</h3>
+                        <p>IP67 water resistance means you can wear it in the shower, while washing hands, or during workouts. It's designed for your real life.</p>
+                    </div>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-detail">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                        <h3>Heart Rate Variability</h3>
+                        <p>Track HRV to measure stress resilience and recovery. Our medical-grade sensors provide accuracy within 2% of clinical ECG.</p>
+                    </div>
+                    <div class="feature-detail">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                            </svg>
+                        </div>
+                        <h3>Sleep Analysis</h3>
+                        <p>Comprehensive sleep tracking with REM, deep, and light sleep stages. Wake up insights help optimize your rest.</p>
+                    </div>
+                    <div class="feature-detail">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="12" y1="8" x2="12" y2="12"/>
+                                <line x1="12" y1="16" x2="12.01" y2="16"/>
+                            </svg>
+                        </div>
+                        <h3>Stress Detection</h3>
+                        <p>Real-time stress monitoring with predictive alerts. Get notified before stress peaks so you can take action.</p>
+                    </div>
+                    <div class="feature-detail">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                            </svg>
+                        </div>
+                        <h3>Activity Tracking</h3>
+                        <p>Monitor steps, calories, and exercise intensity. Understand how physical activity impacts your mental state.</p>
+                    </div>
+                </div>
+
+                <!-- Color Showcase -->
+                <div class="color-showcase">
+                    <h3>Available in 6 Beautiful Colors</h3>
+                    <img src="yonroband-colors.jpg" alt="yoNroBand Colors" class="color-showcase-img">
+                    <p class="color-showcase-desc">From classic black to elegant rose pink, choose the color that matches your style.</p>
+                </div>
+
+                <!-- All Colors Display -->
+                <div class="all-colors-display">
+                    <img src="yonroband-all-colors.jpg" alt="All yoNroBand Colors" class="all-colors-display-img">
+                </div>
+
+                <div class="tech-specs-preview">
+                    <h3>What's in the Box</h3>
+                    <ul>
+                        <li>yoNroBand device</li>
+                        <li>Charging cable (USB-C)</li>
+                        <li>Quick start guide</li>
+                        <li>Warranty card</li>
+                        <li>Extra small & large bands</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tab-content" id="specs">
+                <h2>Technical Specifications</h2>
+                <div class="specs-table">
+                    <div class="spec-row">
+                        <span class="spec-label">Sensors</span>
+                        <span class="spec-value">PPG heart rate, accelerometer, gyroscope, skin temperature, ambient light</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Battery Life</span>
+                        <span class="spec-value">7-10 days (typical use)</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Charging</span>
+                        <span class="spec-value">USB-C, 0-100% in 90 minutes</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Water Resistance</span>
+                        <span class="spec-value">IP67 (splash and rain resistant)</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Display</span>
+                        <span class="spec-value">LED indicator light (no screen)</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Band Material</span>
+                        <span class="spec-value">Soft nylon weave, breathable and adjustable</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Connectivity</span>
+                        <span class="spec-value">Bluetooth 5.2, Wi-Fi</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Compatibility</span>
+                        <span class="spec-value">iOS 14+, Android 9+</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Weight</span>
+                        <span class="spec-value">15g (complete with strap)</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Colors Available</span>
+                        <span class="spec-value">Midnight Black, Space Gray, Sand Beige, Rose Pink, Navy Blue, Sage Green</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-label">Warranty</span>
+                        <span class="spec-value">2 years manufacturer warranty</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="reviews">
+                <h2>Customer Reviews</h2>
+                <div class="reviews-summary">
+                    <div class="rating-overview">
+                        <span class="rating-number">4.9</span>
+                        <div class="rating-stars">★★★★★</div>
+                        <span class="rating-count">Based on 2,847 reviews</span>
+                    </div>
+                </div>
+                <div class="reviews-list">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <span class="reviewer-name">Priya S.</span>
+                                <span class="review-date">2 weeks ago</span>
+                            </div>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                        <h4>Perfect companion to my watch</h4>
+                        <p>I love that I can wear my regular watch and still get health tracking. The yoNroBand is so light I forget it's there. The sleep tracking is incredibly accurate and the stress detection has been a game-changer.</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <span class="reviewer-name">Rahul M.</span>
+                                <span class="review-date">1 month ago</span>
+                            </div>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                        <h4>Simple, stylish, and smart</h4>
+                        <p>As a software engineer, I wanted health tracking without giving up my mechanical watch. yoNroBand is the perfect solution. The design is sleek, it's comfortable for all-day wear, and the insights are genuinely helpful.</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <span class="reviewer-name">Ananya K.</span>
+                                <span class="review-date">3 months ago</span>
+                            </div>
+                            <div class="review-rating">★★★★☆</div>
+                        </div>
+                        <h4>Exactly what I needed</h4>
+                        <p>I wanted health tracking without a bulky smartwatch. yoNroBand delivers perfectly. Battery lasts over a week, it's water resistant, and I love the color options. The rose pink matches everything!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="related-products">
+        <div class="container">
+            <h2>Complete Your Ecosystem</h2>
+            <div class="related-grid">
+                <div class="related-card">
+                    <div class="related-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="5"/>
+                            <line x1="12" y1="1" x2="12" y2="3"/>
+                            <line x1="12" y1="21" x2="12" y2="23"/>
+                        </svg>
+                    </div>
+                    <h3>yoNroLights</h3>
+                    <p class="related-price">₹12,999</p>
+                    <a href="product-yonrolights.html" class="btn-view">View Product</a>
+                </div>
+                <div class="related-card">
+                    <div class="related-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+                        </svg>
+                    </div>
+                    <h3>yoNroSound</h3>
+                    <p class="related-price">₹18,999</p>
+                    <a href="product-yonrosound.html" class="btn-view">View Product</a>
+                </div>
+                <div class="related-card">
+                    <div class="related-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3>Smart Room Kit</h3>
+                    <p class="related-price">₹65,999</p>
+                    <a href="shop.html" class="btn-view">View Bundle</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="logo.png" alt="yoNro" class="footer-logo-img">
+                    <p>Your environment. Your mind. In sync.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="index.html#ecosystem">Ecosystem</a></li>
+                        <li><a href="index.html#how-it-works">How It Works</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 yoNro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="product.js"></script>
+</body>
+</html>

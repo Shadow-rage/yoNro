@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - yoNro Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="yoNro Logo" class="logo-img">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#solution">Solution</a></li>
+                <li><a href="index.html#ecosystem">Ecosystem</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="index.html#pricing">Pricing</a></li>
+            </ul>
+            <button class="cta-btn-small" onclick="window.location.href='register.html'">Get Started</button>
+        </div>
+    </nav>
+
+    <!-- Shop Hero -->
+    <section class="shop-hero">
+        <div class="container">
+            <h1 class="shop-title">yoNro Products</h1>
+            <p class="shop-subtitle">Build your personalized mental wellness ecosystem</p>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="product-categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="all">All Products</button>
+                <button class="filter-btn" data-category="wearable">Wearable</button>
+                <button class="filter-btn" data-category="smart-room">Smart Room</button>
+                <button class="filter-btn" data-category="accessories">Accessories</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-grid">
+                
+                <!-- NeuroBand -->
+                <div class="product-card reveal" data-category="wearable">
+                    <div class="product-badge">Bestseller</div>
+                    <a href="product-neuroband.html" class="product-link">
+                        <div class="product-image">
+                            <div class="product-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <circle cx="12" cy="12" r="6"/>
+                                    <line x1="12" y1="2" x2="12" y2="6"/>
+                                    <line x1="12" y1="18" x2="12" y2="22"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">yoNroBand</h3>
+                            <p class="product-category">Wearable Device</p>
+                            <div class="product-pricing">
+                                <span class="product-price">₹24,999</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="product-actions">
+                        <button class="btn-add-cart">Add to Cart</button>
+                        <a href="product-neuroband.html" class="btn-view-details">View Details</a>
+                    </div>
+                </div>
+
+                <!-- NeuroLights -->
+                <div class="product-card reveal" data-category="smart-room">
+                    <a href="product-neurolights.html" class="product-link">
+                        <div class="product-image">
+                            <div class="product-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="5"/>
+                                    <line x1="12" y1="1" x2="12" y2="3"/>
+                                    <line x1="12" y1="21" x2="12" y2="23"/>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                                    <line x1="1" y1="12" x2="3" y2="12"/>
+                                    <line x1="21" y1="12" x2="23" y2="12"/>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">yoNroLights</h3>
+                            <p class="product-category">Mood-Based Lighting</p>
+                            <div class="product-pricing">
+                                <span class="product-price">₹12,999</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="product-actions">
+                        <button class="btn-add-cart">Add to Cart</button>
+                        <a href="product-neurolights.html" class="btn-view-details">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Sound System -->
+                <div class="product-card reveal" data-category="smart-room">
+                    <a href="product-neurosound.html" class="product-link">
+                        <div class="product-image">
+                            <div class="product-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+                                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">yoNroSound System</h3>
+                            <p class="product-category">Audio Therapy</p>
+                            <div class="product-pricing">
+                                <span class="product-price">₹18,999</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="product-actions">
+                        <button class="btn-add-cart">Add to Cart</button>
+                        <a href="product-neurosound.html" class="btn-view-details">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Aroma Diffuser -->
+                <div class="product-card reveal" data-category="smart-room">
+                    <a href="product-neuroaroma.html" class="product-link">
+                        <div class="product-image">
+                            <div class="product-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+                                    <path d="M12 6v6"/>
+                                    <circle cx="12" cy="16" r="1"/>
+                                    <path d="M8 8c0 2 1 3 2 4"/>
+                                    <path d="M16 8c0 2-1 3-2 4"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">yoNroAroma Diffuser</h3>
+                            <p class="product-category">Emotional Triggers</p>
+                            <div class="product-pricing">
+                                <span class="product-price">₹8,999</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="product-actions">
+                        <button class="btn-add-cart">Add to Cart</button>
+                        <a href="product-neuroaroma.html" class="btn-view-details">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Climate Control -->
+                <div class="product-card reveal" data-category="smart-room">
+                    <a href="product-neuroclimate.html" class="product-link">
+                        <div class="product-image">
+                            <div class="product-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/>
+                                    <circle cx="11.5" cy="18.5" r="1.5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">yoNroClimate</h3>
+                            <p class="product-category">Comfort Optimization</p>
+                            <div class="product-pricing">
+                                <span class="product-price">₹22,999</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="product-actions">
+                        <button class="btn-add-cart">Add to Cart</button>
+                        <a href="product-neuroclimate.html" class="btn-view-details">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Posture System -->
+                <div class="product-card reveal" data-category="smart-room">
+                    <div class="product-badge badge-new">New</div>
+                    <a href="product-neuroposture.html" class="product-link">
+                        <div class="product-image">
+                            <div class="product-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="12" cy="7" r="4"/>
+                                    <line x1="12" y1="11" x2="12" y2="15"/>
+                                    <line x1="10" y1="13" x2="14" y2="13"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">yoNroPosture System</h3>
+                            <p class="product-category">Productivity & Fatigue Detection</p>
+                            <div class="product-pricing">
+                                <span class="product-price">₹15,999</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="product-actions">
+                        <button class="btn-add-cart">Add to Cart</button>
+                        <a href="product-yonroposture.html" class="btn-view-details">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Smart Room Kit Bundle -->
+                <div class="product-card bundle-card reveal" data-category="smart-room">
+                    <div class="product-badge badge-bundle">Complete Bundle</div>
+                    <a href="product-bundle.html" class="product-link">
+                        <div class="product-image">
+                            <div class="product-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                                    <polyline points="9 22 9 12 15 12 15 22"/>
+                                    <circle cx="12" cy="8" r="1"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Complete Smart Room Kit</h3>
+                            <p class="product-category">Full Ecosystem Bundle</p>
+                            <div class="product-pricing">
+                                <span class="product-price-old">₹79,995</span>
+                                <span class="product-price">₹65,999</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="product-actions">
+                        <button class="btn-add-cart btn-primary glow-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Accessories - Replacement Bands -->
+                <div class="product-card reveal" data-category="accessories">
+                    <div class="product-image">
+                        <div class="product-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="2" y="7" width="20" height="15" rx="2" ry="2"/>
+                                <polyline points="17 2 12 7 7 2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">yoNroBand Straps</h3>
+                        <p class="product-category">Replacement Bands</p>
+                        <p class="product-description">Premium replacement straps for your yoNroBand in multiple colors and materials. Hypoallergenic and comfortable for 24/7 wear.</p>
+                        <ul class="product-features">
+                            <li>Multiple color options</li>
+                            <li>Silicone & leather materials</li>
+                            <li>Hypoallergenic</li>
+                            <li>Easy swap mechanism</li>
+                        </ul>
+                        <div class="product-pricing">
+                            <span class="product-price">₹1,999</span>
+                            <span class="price-note">Per strap</span>
+                        </div>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Accessories - Aroma Refills -->
+                <div class="product-card reveal" data-category="accessories">
+                    <div class="product-image">
+                        <div class="product-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Aroma Scent Cartridges</h3>
+                        <p class="product-category">Refill Pack</p>
+                        <p class="product-description">Premium essential oil cartridges designed for specific emotional states. Each pack includes 6 therapeutic-grade scents.</p>
+                        <ul class="product-features">
+                            <li>6 scent varieties</li>
+                            <li>Therapeutic-grade oils</li>
+                            <li>30-day supply</li>
+                            <li>Easy cartridge swap</li>
+                        </ul>
+                        <div class="product-pricing">
+                            <span class="product-price">₹2,499</span>
+                            <span class="price-note">6-pack cartridges</span>
+                        </div>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="shop-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Need help choosing?</h2>
+                <p>Our wellness experts can help you build the perfect ecosystem for your needs.</p>
+                <button class="btn-primary glow-btn">Talk to an Expert</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="logo.png" alt="yoNro" class="footer-logo-img">
+                    <p>Your environment. Your mind. In sync.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="index.html#ecosystem">Ecosystem</a></li>
+                        <li><a href="index.html#how-it-works">How It Works</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 yoNro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="shop.js"></script>
+</body>
+</html>
